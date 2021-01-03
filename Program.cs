@@ -131,11 +131,26 @@ namespace C__training
         public static void Task7()
         {
             int n1; int n2; int n3; int n4;
-            n1 = (-4 * 6);
+            n1 = (-1 + 4 * 6);
             n2 = ((35 + 5) % 7);
             n3 = (14 - 4 * 6 / 11);
             n4 = (2 + 15 / 6 * 1 - 7 % 2);
             Console.WriteLine(Convert.ToString(n1) + ", " + Convert.ToString(n2) + ", " + Convert.ToString(n3) + ", " + Convert.ToString(n4));
+
+        }
+        //Write a C# Sharp program to swap two numbers
+        public static void Task8()
+        {
+            int n1, n2, tmp;
+            n1 = 21;
+            n2 = 22;
+            Console.WriteLine("First number before swap: " + n1);
+            Console.WriteLine("Second number before swap: " + n2);
+            tmp = n1;
+            n1 = n2;
+            n2 = tmp;
+            Console.WriteLine("First number after swap: " + n1);
+            Console.WriteLine("Second number after swap: " + n2);
 
         }
         static void Main(string[] args)
@@ -147,7 +162,8 @@ namespace C__training
             //Task4("NameTest");
             //Task5(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
             //Task6(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
-            Task7();
+            //Task7();
+            //Task8();
         }
     }
 }
