@@ -17,8 +17,12 @@ namespace C__training
 {
     class Program
     {
-
+        /*1) метод, в которые передается массив чисел и число, 
+        если при добавлении данного числа к элементу массива получается число больше 10, 
+        элемент удаляется из массива.
+        */
         static void Task1()
+
         {
 
             var rand = new Random();
@@ -59,10 +63,31 @@ namespace C__training
                 Console.WriteLine("Element[" + (i + 1) + "]: " + numbers[i]);
             }
         }
+        // 2) Метод который выводит поздравление с днем рождения в консоль, имя человека передается в метод
+        static void Task2()
+        {
+            string name;
+            double TodayDate = 3.01;
+            Console.WriteLine("Введите ваше имя: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Я вас категорически приветствую " + name);
+            Console.WriteLine("Введите вашу дату рождения: ");
+            double BdayDate = Convert.ToDouble(Console.ReadLine());
+            if (TodayDate == BdayDate)
+            {
+                Console.WriteLine("С днём рождения, человяк по имени " + name + "Твой день рождения " + BdayDate);
+            }
+            else
+            {
+                Console.WriteLine("Раз у тебя не др, досвидания");
+            }
+
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             Task1();
+            Task2();
         }
     }
 }
