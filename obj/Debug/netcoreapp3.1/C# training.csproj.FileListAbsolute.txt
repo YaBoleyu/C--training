@@ -1,0 +1,13 @@
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.exe
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.deps.json
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.runtimeconfig.json
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.runtimeconfig.dev.json
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.dll
+C:\Need\C# training\bin\Debug\netcoreapp3.1\C# training.pdb
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.csprojAssemblyReference.cache
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.AssemblyInfoInputs.cache
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.AssemblyInfo.cs
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.csproj.CoreCompileInputs.cache
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.dll
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.pdb
+C:\Need\C# training\obj\Debug\netcoreapp3.1\C# training.genruntimeconfig.cache
