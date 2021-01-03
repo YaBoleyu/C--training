@@ -17,6 +17,8 @@ namespace C__training
 {
     class Program
     {
+        public int number;
+        public string name;
         /*1) метод, в которые передается массив чисел и число, 
         если при добавлении данного числа к элементу массива получается число больше 10, 
         элемент удаляется из массива.
@@ -56,8 +58,6 @@ namespace C__training
             }
         }
         // 2) Метод который выводит поздравление с днем рождения в консоль, имя человека передается в метод - done
-        public string name;
-
         static void Task2(string name)
         {
             double TodayDate = 3.01;
@@ -79,7 +79,7 @@ namespace C__training
         В коде, если это оказалось простое число, выводим его в консоль, с надписью, что это простое число. 
         Если нет, уменьшаем число на 1 и пробуем еще один раз 
         (вызываем метод снова на уменьшенное число). Теперь уже пишем получилось у нас или нет в консоль. - done*/
-        public int number;
+
         /* TO DO 
         1. В задаче один доделать нормальное удаление значений из массивов
         2. В задаче 2 понять почему на компиляторе VS CODE оно через хуй работает
@@ -102,14 +102,52 @@ namespace C__training
             return false;
 
         }
+        //1. Write a C# Sharp program to print Hello and your name in a separate line.
+        public static void Task4(string name)
+        {
+            Console.WriteLine("Hello, " + name);
+        }
+        // Write a C# Sharp program to print the sum of two numbers
+        public static void Task5(int n1, int n2)
+        {
+            int n3 = n1 + n2;
+            Console.WriteLine(n1 + "+" + n2 + "=" + n3);
+        }
+        // Write a C# Sharp program to print the result of dividing two numbers
+        public static void Task6(int n1, int n2)
+        {
+            int n3 = (n1 / n2);
+            Console.WriteLine(n1 + "/" + n2 + "=" + n3);
+        }
+        // Write a C# Sharp program to print the result of the specified operations
+        /*
+
+        -1 + 4 * 6
+        ( 35+ 5 ) % 7
+        14 + -4 * 6 / 11
+        2 + 15 / 6 * 1 - 7 % 2 
+        
+        */
+        public static void Task7()
+        {
+            int n1; int n2; int n3; int n4;
+            n1 = (-4 * 6);
+            n2 = ((35 + 5) % 7);
+            n3 = (14 - 4 * 6 / 11);
+            n4 = (2 + 15 / 6 * 1 - 7 % 2);
+            Console.WriteLine(Convert.ToString(n1) + ", " + Convert.ToString(n2) + ", " + Convert.ToString(n3) + ", " + Convert.ToString(n4));
+
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //Task1();
-            Console.WriteLine("\n");
             //Task2(Console.ReadLine());
-            Console.WriteLine("\n");
-            Task3(Convert.ToInt32(Console.ReadLine()));
+            //Task3(47);
+            //Task4("NameTest");
+            //Task5(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
+            //Task6(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
+            Task7();
         }
     }
 }
